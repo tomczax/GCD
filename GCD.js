@@ -13,7 +13,7 @@ function GCD(num1, num2) {
         } else {
             while (gcd > 1) {
                 gcd--;
-                if ((smaller) % gcd === 0) {
+                if (smaller % gcd === 0) {
                     break;
                 }
             }
